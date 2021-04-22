@@ -37,7 +37,7 @@ class CCDCMainConan(ConanFile):
         self.requires("ccdcsqlite3/3.17.0")
         self.requires("cppad/20150000.9")
         self.requires("cryptopp/8.2.0@bincrafters/stable")
-        self.requires("csdprotobufs/1.0.125")
+        self.requires("csdprotobufs/1.0.128")
         self.requires("fasta/36.3.8f")
         self.requires("gsoap/2.8.113")
         self.requires("inchi/1.04")
