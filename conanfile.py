@@ -23,17 +23,17 @@ class CCDCMainConan(ConanFile):
         if self.settings.os == 'Windows':
             self.build_requires("7zip/19.00")
 
-        self.build_requires("cmake/3.17.3")
+        self.build_requires("cmake/3.20.1")
         self.build_requires("gtest/1.8.1")
         self.build_requires("installbuilder/21.3.0")
-        self.build_requires("ninja/1.10.1")
+        self.build_requires("ninja/1.10.2")
         self.build_requires("swig/4.0.2")
 
     def requirements(self):
         if self.settings.os != 'Windows':
             self.requires("fontconfig/2.13.93")
 
-        self.requires("ccdcboost/1.73.0")
+        self.requires("ccdcboost/1.75.0")
         self.requires("ccdcsqlite3/3.17.0")
         self.requires("cppad/20150000.9")
         self.requires("cryptopp/8.2.0@bincrafters/stable")
