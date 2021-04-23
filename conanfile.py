@@ -25,7 +25,7 @@ class CCDCMainConan(ConanFile):
 
         self.build_requires("cmake/3.17.3")
         self.build_requires("gtest/1.8.1")
-        self.build_requires("installbuilder/20.12.0")
+        self.build_requires("installbuilder/21.3.0")
         self.build_requires("ninja/1.10.1")
         self.build_requires("swig/4.0.2")
 
@@ -41,9 +41,9 @@ class CCDCMainConan(ConanFile):
         self.requires("fasta/36.3.8f")
         self.requires("gsoap/2.8.113")
         self.requires("inchi/1.04")
-        self.requires("lexactivator/3.12.1")
-        self.requires("lexfloatclient/4.3.10")
-        self.requires("lexfloatserver/4.3.10")
+        self.requires("lexactivator/3.14.7")
+        self.requires("lexfloatclient/4.5.2")
+        self.requires("lexfloatserver/4.5.2")
         self.requires("libarchive/3.5.1")
         self.requires("libxl/3.8.2.0")
         self.requires("mariadb-connector-c/3.1.11")
