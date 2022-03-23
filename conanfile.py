@@ -23,7 +23,7 @@ class CCDCMainConan(ConanFile):
         if self.settings.os == 'Windows':
             self.build_requires("7zip/19.00")
 
-        self.build_requires("cmake/3.20.1")
+        self.build_requires("cmake/3.22.3")
         self.build_requires("gtest/1.8.1")
         self.build_requires("installbuilder/21.7.0-bld1")
         self.build_requires("ninja/1.10.2")
@@ -48,7 +48,7 @@ class CCDCMainConan(ConanFile):
         self.requires("libxl/3.8.2.0")
         self.requires("mariadb-connector-c/3.1.11")
         self.requires("openscenegraph/3.6.3")
-        self.requires("openssl/1.1.1k")
+        self.requires("openssl/1.1.1n")
         self.requires("povray/3.7.0.8")
         self.requires("range-v3/0.11.0")
         self.requires("rapidjson/1.1.0")
